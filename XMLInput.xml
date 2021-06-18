@@ -1,0 +1,33 @@
+<RFC_READ_TABLE>
+  <DELIMITER>*</DELIMITER>
+    <NO_DATA></NO_DATA>
+      <QUERY_TABLE>T000</QUERY_TABLE>
+        <ROWCOUNT>10</ROWCOUNT> 
+         <ROWSKIPS>0</ROWSKIPS>  
+         <DATA>  
+               <ROW>    
+                      <WA>000*SAP AG                   *Walldo                 *DEM  *          *S*1* *X* * * *X* *EMPLOYEE1      *20200524*</WA>    </ROW>   
+             <ROW>      
+                     <WA>001*Client32 R11 *USA                *USD  *          *C*1* * * * * * * *EMPLOYEE1      *20200526*</WA>   
+            </ROW>   
+             <ROW>     
+                        <WA>100*Quality Client           *Delhi                    *INR  *          *T*2*3*X* * * * * *EMPLOYEE2    *20220402*DSQCLNT100</WA>  
+            </ROW> 
+          </DATA>  
+          <FIELDS> 
+            <ROW>   
+                <FIELDNAME>CLIENT</FIELDNAME>      <OFFSET>000000</OFFSET>      <LENGTH>000003</LENGTH>      <TYPE>C</TYPE>      <FIELDTEXT>Client</FIELDTEXT>    
+            </ROW>    
+            <ROW>     
+               <FIELDNAME>CLIENTNAME</FIELDNAME>      <OFFSET>000004</OFFSET>      <LENGTH>000025</LENGTH>      <TYPE>C</TYPE>      <FIELDTEXT>Client name</FIELDTEXT>   
+            </ROW> 
+
+            <ROW>   
+                 <FIELDNAME>CITY</FIELDNAME>      <OFFSET>000030</OFFSET>      <LENGTH>000025</LENGTH>      <TYPE>C</TYPE>      <FIELDTEXT>City</FIELDTEXT>   
+            </ROW>  
+            <ROW>   
+                <FIELDNAME>CURRENCY</FIELDNAME>      <OFFSET>000056</OFFSET>      <LENGTH>000005</LENGTH>      <TYPE>C</TYPE>      <FIELDTEXT>Standard Currency in Client</FIELDTEXT> 
+            </ROW>  
+            <ROW>      
+            <FIELDNAME>CHARLEN</FIELDNAME>      <OFFSET>000062</OFFSET>      <LENGTH>000010</LENGTH>      <TYPE>C</TYPE>      <FIELDTEXT>Character Field with Length 10</FIELDTEXT>    </ROW>    <ROW>      <FIELDNAME>CATEGORY</FIELDNAME>      <OFFSET>000073</OFFSET>      <LENGTH>000001</LENGTH>      <TYPE>C</TYPE>      <FIELDTEXT>Client control: Role of client (production, test,...)</FIELDTEXT>    </ROW>    <ROW>      <FIELDNAME>TRANS</FIELDNAME>      <OFFSET>000075</OFFSET>      <LENGTH>000001</LENGTH>      <TYPE>C</TYPE>      <FIELDTEXT>Changes and transports for client-specific objects</FIELDTEXT>    </ROW>    <ROW>      <FIELDNAME>MAINTAIN</FIELDNAME>      <OFFSET>000077</OFFSET>      <LENGTH>000001</LENGTH>      <TYPE>C</TYPE>      <FIELDTEXT>Maintenance authorization for objects in all clients</FIELDTEXT>    </ROW>    <ROW>      <FIELDNAME>PROTECT</FIELDNAME>      <OFFSET>000079</OFFSET>      <LENGTH>000001</LENGTH>      <TYPE>C</TYPE>      <FIELDTEXT>Protection reg. client copy program and comparison tools</FIELDTEXT>    </ROW>    <ROW>      <FIELDNAME>CCONTROL</FIELDNAME>      <OFFSET>000081</OFFSET>      <LENGTH>000001</LENGTH>      <TYPE>C</TYPE>      <FIELDTEXT>Client control: No client cascade for upgrade import</FIELDTEXT>    </ROW>    <ROW>      <FIELDNAME>CCONTROLSOFT</FIELDNAME>      <OFFSET>000083</OFFSET>      <LENGTH>000001</LENGTH>      <TYPE>C</TYPE>      <FIELDTEXT>Client control: Soft Lock Required (Planned for 4.0)</FIELDTEXT>    </ROW>    <ROW>      <FIELDNAME>RECORDING</FIELDNAME>      <OFFSET>000085</OFFSET>      <LENGTH>000001</LENGTH>      <TYPE>C</TYPE>      <FIELDTEXT>Recording Client for Switch BC Sets</FIELDTEXT>    </ROW>    <ROW>      <FIELDNAME>CATT</FIELDNAME>      <OFFSET>000087</OFFSET>      <LENGTH>000001</LENGTH>      <TYPE>C</TYPE>      <FIELDTEXT>Client Control: CATT und eCATT Start Authorization</FIELDTEXT>    </ROW>    <ROW>      <FIELDNAME>INDI</FIELDNAME>      <OFFSET>000089</OFFSET>      <LENGTH>000001</LENGTH>      <TYPE>C</TYPE>      <FIELDTEXT>Client control: Indicator that client is temporarily locked</FIELDTEXT>    </ROW>    <ROW>      <FIELDNAME>LASTCHANGE</FIELDNAME>      <OFFSET>000091</OFFSET>      <LENGTH>000012</LENGTH>      <TYPE>C</TYPE>      <FIELDTEXT>Last Changed By</FIELDTEXT>    </ROW>    <ROW>      <FIELDNAME>CHANGEDATE</FIELDNAME>      <OFFSET>000104</OFFSET>      <LENGTH>000008</LENGTH>      <TYPE>D</TYPE>      <FIELDTEXT>Last Changed On</FIELDTEXT>    </ROW>    <ROW>      <FIELDNAME>LOG</FIELDNAME>      <OFFSET>000113</OFFSET>      <LENGTH>000010</LENGTH>      <TYPE>C</TYPE>      <FIELDTEXT>Logical system</FIELDTEXT>    </ROW>  </FIELDS>  <OPTIONS /></RFC_READ_TABLE>
+
